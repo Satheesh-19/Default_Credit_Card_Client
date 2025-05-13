@@ -85,6 +85,6 @@ This project demonstrates an end-to-end ML pipeline that:
 
 1. ip install mlflow
 2. mlflow ui and copy the link
-3.mlflow.set_tracking_uri("http://127.0.0.1:5000")#paste the link copied
+3.mlflow.set_tracking_uri("http://127.0.0.1:5000") #paste the link copied
 4. now log models and metrics
 
