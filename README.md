@@ -79,3 +79,12 @@ This project demonstrates an end-to-end ML pipeline that:
 - Applies tuning aligned with business goal(focused on catching defaulters than increasing accuracy)
 - Leverages MLflow for full transparency
 - Selects the best model based on both performance and interpretability
+
+## How to Use MLflow Locally
+### Step-by-step:
+
+1. ip install mlflow
+2. mlflow ui and copy the link
+3.mlflow.set_tracking_uri("http://127.0.0.1:5000")#paste the link copied
+4. now log models and metrics
+
